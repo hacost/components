@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* to use rem */
+    font-size: 62.5;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* By default, flex items will all try to fit onto one line. 
+       You can change that and allow the items to wrap as needed
+       with this property.
+    */
+    font-size: 1rem;
+    background-color: #DFE7F2;
+    
+}
+
+/* component add-product */
+/* Block component */
+.add-product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:3px;
+    padding: 10px;
+ }
+/* Elements that depends upon the block */ 
+.add-product__label {
+    width: 65px;
+}
+.add-product__search {
+    width: 100%;
+    height: 25px;
+}
+.add-product__add-to-cart {
+    width: 100%;
+    margin-top: 5px;
+    height: 25px;
+}
+/* Modifier that changes the style of the block */
+.add-product--white {
+    border: solid 1px #dadfe4;
+    border-radius: 5px;
+    background-color: #fdfeff;
+}
+.add-product--primary-color {
+    background-color: 
+
+
+   #ECF3FF;
+   #AAC9FF;
+   #77A7FF;
+   #1877F2;
+   #2851A3;
+   #1D3C78;
+
+
+}
+
+/* component sales-cart */
+/* Block component */
+.sales-cart {
+    width: 100%;
+}
+
+/* Elements that depends upon the block */ 
+.sales-cart__header {
+    display: none;
+}
+
+.sales-cart__item {
+    display: grid;
+     /* set 5 row and 1 columns */
+    grid-template: repeat(5, auto) / 65px 85%;
+}
+
+.sales-cart__item-title {
+    width: 65px;
+}
+
+/* Block */
+.btn {
+    text-decoration: none;
+    background-color: white;
+    color: #888;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 1rem;
+  }
+  
+  /* Element */
+  .btn__price {
+    background-color: white;
+    color: #fff;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: -10px; /* realign button text padding */
+    font-weight: 600;
+    background-color: #333;
+    opacity: .4;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  /* Element */
+  .btn__text {
+    padding: 0 10px;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  /* Modifier */
+  .btn--big {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  
+  /* Modifier */
+  .btn--blue {
+    border-color: #0074D9;
+    color: white;
+    background-color: #0074D9;
+  }
+  
+  /* Modifier */
+  .btn--orange {
+    border-color: #1877F2;
+    color: white;
+    background-color:orange;
+  }
+  
+  /* Modifier */
+  .btn--green {
+    border-color: #00d9fa;
+    color: white;
+    background-color:green;
+  }
+  
+  
+
+.c1, .c2 {
+    width: 100%;
+    height: 40px;
+}
+.c1 {
+    background-color: #00122B;
+}
+.c2 {
+    background-color: #1B3756;
+}
+.c-320 {
+    width: 320px;
+    height: 100px;
+   
+    background-color: #495D75;
+}
+
+.c-600 {
+    width: 600px;
+    height: 100px;
+    background-color: #AEC2D9;
+}
+
+.last-color {
+    width: 100px;
+    border: dotted 1px red;
+    background-color: #EFF2F4;
+}

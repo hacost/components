@@ -1,0 +1,41 @@
+/* component add-product */
+.add-product__label {
+    margin-top: 3px;
+}
+.add-product__search {
+    width: 62%;
+}
+.add-product__add-to-cart {
+    width: 25%;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+/* component sales-cart */
+.sales-cart__header {
+   display: grid;
+   /* set 1 row and 5 columns */
+   grid-template: 100% / 5% 50% 15% 15% 15%;
+}
+
+.sales-cart__item {
+   display: grid;
+   /* set 1 row and 5 columns */
+  grid-template: 100% / 5% 50% 15% 15% 15%;
+ }
+
+ .sales-cart__item-title {
+   display: none;
+}
+
+.sales-cart__delete-product {
+}
+.sales-cart__product {
+}
+.sales-cart__prise {
+}
+.sales-cart__quantity {
+    width: 60px;
+}
+.sales-cart__total {
+}

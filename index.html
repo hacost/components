@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de venta</title>
+    <link rel="stylesheet" href="./style/mobile.css">
+    <link rel="stylesheet" 
+    href="./style/tablet.css" 
+    media="screen and (min-width: 600px)">
+    <link rel="stylesheet" 
+    href="./style/desktop.css" 
+    media="screen and (min-width: 800px)">
+
+</head>
+<body>
+    <main class="container">
+        <div class="c1"></div>
+        <div class="c2">
+        </div>
+
+        <!-- -->
+        <div class="add-product add-product--white">
+            <label class="add-product__label"
+                for="fname">Producto:</label>
+            <input class="add-product__search" type="text" id="fname" name="fname" placeholder="Nombre o código de Producto">
+            <input class="add-product__add-to-cart btn"
+            type="submit" value="Agregar al carrito"> 
+        </div>   
+         <!-- sales-cart-component -->
+         <div class="sales-cart">
+            <h3 >Carrito de venta</h3>
+            <div class="sales-cart__header">
+                <div></div>
+                <div>
+                    Producto
+                </div>
+                <div>
+                    Precio
+                </div>
+                <div>
+                    Cantidad
+                </div>
+                <div>
+                    Total
+                </div> 
+            </div> 
+            <div class="sales-cart__item">
+                <div5 class="sales-cart__item-title"></div5>
+                <div1 class="sales-cart__delete-product"><a href="#">x</a> </div1>
+                <div1 class="sales-cart__item-title">Producto:</div1>
+                <div2 class="sales-cart__product"><a href="#">Chiles san marcos rajas de 215gr (24 piezas)</a></div2>
+                <div2 class="sales-cart__item-title">Precio:</div2>
+                <div3 class="sales-cart__prise ">$200,000.00</div3>
+                <div3 class="sales-cart__item-title">Cantidad:</div3>
+                <div4 ><input type="number" value="2" class="sales-cart__quantity"></div4>
+                <div4 class="sales-cart__item-title">Total:</div4>
+                <div5 class="sales-cart__total"> $400,000.00</div5>
+            </div>
+            <div class="sales-cart__item">
+                <div5 class="sales-cart__item-title"></div5>
+                <div1><a href="#">x</a> </div1>
+                <div1 class="sales-cart__item-title">Producto:</div1>
+                <div2 ><a href="#">Jumex lata 355ml (24 piezas)</a></div2>
+                <div2 class="sales-cart__item-title">Precio:</div2>
+                <div3 >$195.00</div3>
+                <div3 class="sales-cart__item-title">Cantidad:</div3>
+                <div4 ><input type="number" value="2" class="sales-cart__quantity"></div4>
+                <div4 class="sales-cart__item-title">Total:</div4>
+                <div5 > $390.00</div5>
+            </div>
+            <div class="sales-cart__item">
+                <div5 class="sales-cart__item-title"></div5>
+                <div1><a href="#">x</a> </div1>
+                <div1 class="sales-cart__item-title">Producto:</div1>
+                <div2 ><a href="#">La costeña rajas de 220gr (48 piezas)</a></div2>
+                <div2 class="sales-cart__item-title">Precio:</div2>
+                <div3 >$470.00</div3>
+                <div3 class="sales-cart__item-title">Cantidad:</div3>
+                <div4 ><input type="number" value="1" class="sales-cart__quantity"></div4>
+                <div4 class="sales-cart__item-title">Total:</div4>
+                <div5 > $470.00</div5>
+            </div>
+         </div>
+         
+         <a href="#" class="btn">
+            <span class="btn__text">Standard button</span>
+          </a>
+          
+          <a href="#" class="btn btn--orange btn--big">
+            <span class="btn__price">$3</span>
+            <span class="btn__text">Big button</span>
+          </a>
+          
+          <a href="#" class="btn btn--blue btn--big">
+            <span class="btn__price">$4</span>
+            <span class="btn__text">Big button</span>
+          </a>
+          
+          <a href="#" class="btn btn--green btn--big">
+            <span class="btn__price">$9</span>
+            <span class="btn__text">Big button</span>
+          </a>
+          <button class="btn btn--orange"> 
+            <span class="btn__price">$9</span>
+            <span class="btn__text">Big button</span>
+          </button>
+          <button class="btn"> <span class="btn__text">Standard button</span></button>
+    </main>
+</body>
+</html>
